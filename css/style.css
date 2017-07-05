@@ -165,8 +165,8 @@ header .hero {
 }
 /* PRICING */
 .pricing {
-  background: #34495E url("/Users/lilycarstens/Desktop/blocbox-2/images/background.png") top center no-repeat;
-  background: url("/Users/lilycarstens/Desktop/blocbox-2/images/background.png") top center no-repeat, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%;)
+  background: #34495E url("Desktop/blocbox-2/images/background.png") top center no-repeat;
+  background: url("Desktop/blocbox-2/images/background.png") top center no-repeat, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%;)
   background-size: cover;
   text-align: center;
   padding:4em 0;
@@ -262,6 +262,16 @@ header .hero {
    width:auto;
    margin:0;
  }
+.testimonials li blockquote.nudgeDown {
+  color:#FFFFFF;
+  text-align: left;
+  font-style: italic;
+  background:#34495E;
+  position: relative;
+  padding:30px;
+  width:auto;
+  margin:20px 0;
+}
  .testimonials blockquote:after {
    top: 100%;
    left: 13%;
