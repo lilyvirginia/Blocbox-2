@@ -63,7 +63,7 @@ container:after {
     width:21%;
   }
 }
-@media (mid-width: 1200px) {
+@media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
@@ -124,6 +124,31 @@ header .hero {
    display: block;
    margin:3em auto 0;
  }
+ @media (min-width: 786px) {
+   .hero {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .hero {
+     width: 970 px;
+   }
+ }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .hero {
+     width: 1170px;
+ }
+}
  /* BUTTONS */
 .btn {
   border-radius: 4px;
@@ -133,5 +158,5 @@ header .hero {
   padding:10px 30px;
   background: #FF5206;
   border: 2px solid #FF5206;
-  box-shadow: 0px 2px 0px 0px #872A02;
+  box-shadow: 0px 3px 0px 0px #872A02;
 }
