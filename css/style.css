@@ -3,7 +3,7 @@ html, body {
 }
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  colior:#333333;
+  color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Varela Round", Helvetica, Arial, sans-serif;
@@ -27,7 +27,6 @@ p {
   padding-right: 15px;
   position: relative;
 }
-.clearfix:before,
 .clearfix:after,
 .container::before,
 .container::after {
@@ -77,7 +76,7 @@ p {
 header {
   color:#FFFFFF;
   background: #34495E;
-  background-image:linear-gradient(45deg, #344953 0%, #00B29C 53%, #5F81A3 100%);
+  background-image:linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);)
 }
 header nav {
   padding:1em 0;
@@ -166,10 +165,9 @@ header .hero {
 }
 /* PRICING */
 .pricing {
-  background: #34495E url(images/background.png) top center no-repeat;
-  background: url(images/background.png) top center no-repeat, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);)
-
-  background-size:cover;
+  background: #34495E url("/Users/lilycarstens/Desktop/blocbox-2/images/background.png") top center no-repeat;
+  background: url("/Users/lilycarstens/Desktop/blocbox-2/images/background.png") top center no-repeat, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%;)
+  background-size: cover;
   text-align: center;
   padding:4em 0;
 }
@@ -243,3 +241,52 @@ header .hero {
    font-style:italic;
   }
  }
+ /* TESTIMONIALS */
+ .testimonials {
+   padding:4em 0;
+   text-align: center;
+ }
+ .testimonials h2 {
+   color:#3498DB;
+ }
+ .testimonials ul li {
+   list-style-type: none;
+ }
+ .testimonials blockquote {
+   color:#FFFFFF;
+   text-align: left;
+   font-style: italic;
+   background:#34495E;
+   position: relative;
+   padding:30px;
+   width:auto;
+   margin:0;
+ }
+ .testimonials blockquote:after {
+   top: 100%;
+   left: 13%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-top-color: #34495E;
+   border-width: 10px;
+   margin-left: -10px;
+ }
+ .testimonials img {
+    height: 65px;
+    width: 65px;
+    border-radius:50%;
+    float: left;
+    display: inline-block;
+    margin:20px 10px 0 0;
+  }
+  .testimonials p.name {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size:13px;
+  margin-top: 30px;
+}
