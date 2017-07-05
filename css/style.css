@@ -75,7 +75,7 @@ p {
 /* HEADER */
 header {
   color:#FFFFFF;
-  background: #34495E;
+  background: #FFFFFF;
   background-image:linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);)
 }
 header nav {
@@ -165,12 +165,12 @@ header .hero {
 }
 /* PRICING */
 .pricing {
-  background: #34495E url("background.png") no-repeat center top;
-  background-image: url("background.png"); no-repeat center top, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);
-  background-size: cover;
-  text-align: center;
-  padding:4em 0;
-}
+   background: #FFFFFF url("../images/background.png") no-repeat top center ;
+   background: url("../images/background.png") no-repeat top center, linear-gradient(45deg, rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);
+   background-size:cover;
+   text-align: center;
+   padding:4em 0;
+ }
 .pricing h2, .pricing p {
   color:#FFFFFF;
 }
