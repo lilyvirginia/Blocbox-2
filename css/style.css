@@ -127,8 +127,12 @@ header .hero {
    display: block;
    margin:3em auto 0;
  }
-
-
+ @media (max-width: 785px) {
+   .header img {
+     padding-left: 0;
+     padding-right: 0;
+   }
+ }
  /* BUTTONS */
 .btn {
   border-radius: 4px;
@@ -302,11 +306,11 @@ header .hero {
 }
 /* FOOTER */
  footer {
-   background-color: #34495E;
-   background-image: linear-gradient(to top,
+   background-color: #FFFFFF;
+   background-image: linear-gradient(to right,
       rgba(52,73,83,0.50) 0%, rgba(0,178,156,0.68) 53%, #5F81A3 100%);
    color: #FFFFFF;
-   height: 150px;
+   height: 200px;
    position: relative;
    overflow: hidden;
    z-index: 0;
@@ -329,10 +333,10 @@ header .hero {
    background-color: transparent;
  }
  footer .logo{
-   padding: 2.35em 0;
+   padding: 2em 0;
    margin: 0 auto;
    display: block;
- }
+}
  @media (min-width: 992px){
     footer {
       background-color: #FFFFFF;
