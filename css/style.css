@@ -455,15 +455,15 @@ header .hero {
    margin-top: 8px;
  }
  /* mouse hover */
-.left-nav  a:hover {
+.left-nav .links a:hover {
      background-color: grey;
 }
 /* selected link */
-.left-nav  a:active {
+.left-nav .links a:active {
     background-color: lightgrey;
   }
   /* visited link */
- .left-nav  a::selection {
+ .left-nav .links a:visited {
       background-color: lightgrey;
 }
 
