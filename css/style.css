@@ -360,8 +360,7 @@ header .hero {
   padding: 0;
   margin: 0 -60px;
 }
-
-.images ul li {
+.images li {
   list-style-type: none;
   display: inline-block;
   width: 20%;
@@ -370,6 +369,9 @@ header .hero {
   float: left;
   box-sizing: border-box;
   padding: 0 30px;
+}
+.images item-box {
+  display: inline-block;
 }
 
 /* DASHBOARD */
@@ -420,27 +422,6 @@ header .hero {
   text-align: center;
   margin-right: 8px;
 }
-/* unvisited link */
-a:link {
-    color: green;
-}
-
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-}
-
-/* selected link */
-a:active {
-    color: yellow;
-}
-
-
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
    position: absolute;
@@ -511,6 +492,39 @@ a:active {
    overflow: hidden;
    padding: 20px;
  }
+ .item-box > img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+ }
+ .item-box h2 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  margin:0;
+ }
+ .item-box h2 a {
+  color: #3498DB;
+  text-decoration: none;
+ }
+ .item-box h2 img {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+ }
+ .item-box p {
+   font-size: 14px;
+   color: #333333;
+   line-height: 18px;
+   margin: 5px 0 0;
+ }
+
  /* Larger Mobile Devices */
   @media (min-width:460px) {
     .content {
@@ -557,36 +571,4 @@ a:active {
          width: 23%;
          margin: 0 1% 25px;
        }
-  }
-  .item-box > img {
-   position:absolute;
-   height:100%;
-   width:auto;
-   top:0;
-   left:0;
-   right:0;
- }
- .item-box h2 {
-   font-family: 'Lato', Helvetica, Arial, sans-serif;
-   font-weight: 700;
-   font-size: 15px;
-   line-height: 17px;
-   margin:0;
- }
- .item-box h2 a {
-   color: #3498DB;
-   text-decoration: none;
- }
- .item-box h2 img {
-   width: 16px;
-   height: 16px;
-   position: relative;
-   top: 2px;
-   margin-right: 5px;
- }
- .item-box p {
-    font-size: 14px;
-    color: #333333;
-    line-height: 18px;
-    margin: 5px 0 0;
   }
