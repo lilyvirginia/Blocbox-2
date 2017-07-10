@@ -361,7 +361,7 @@ header .hero {
   margin: 0 -60px;
 }
 
-.images li {
+.images ul li {
   list-style-type: none;
   display: inline-block;
   width: 20%;
@@ -420,6 +420,27 @@ header .hero {
   text-align: center;
   margin-right: 8px;
 }
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
    position: absolute;
