@@ -454,6 +454,19 @@ header .hero {
    margin-right: 10px;
    margin-top: 8px;
  }
+ /* mouse hover */
+.left-nav  a:hover {
+     background-color: grey;
+}
+/* selected link */
+.left-nav  a:active {
+    background-color: lightgrey;
+  }
+  /* visited link */
+ .left-nav  a::selection {
+      background-color: lightgrey;
+}
+
  /* CONTENT */
 .content {
    padding: 6em 1% 1.5em;
@@ -572,20 +585,3 @@ header .hero {
          margin: 0 1% 25px;
        }
   }
-  /* unvisited link */
-  a:link {
-      color: green;
-  }
-  /* visited link */
-  a:visited {
-      color: green;
-  }
-
-  /* mouse over link */
-  a:hover {
-      color: red;
-  }
-  /* selected link */
-  a:active {
-      color: yellow;
-}
