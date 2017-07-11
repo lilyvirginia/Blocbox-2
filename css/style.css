@@ -463,10 +463,9 @@ header .hero {
     background-color: lightgrey;
   }
   /* visited link */
- .left-nav .links a:visited {
+ .left-nav .links a:focus {
       background-color: lightgrey;
 }
-
  /* CONTENT */
 .content {
    padding: 6em 1% 1.5em;
