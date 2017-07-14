@@ -60,3 +60,26 @@
  }
 
 /* account settings */
+
+.dropit.account .dropit-open .dropit-submenu:after {
+    border-width: 8px 8px 0;
+    top: 0;
+    margin: 100px 0;
+    bottom: 100%;
+    box-shadow: 4px 0px 0px 0px rgba(0,0,0,10);
+
+}
+.dropit.account .dropit-open .dropit-submenu {
+    border-width: 8px 8px 0;
+    top: 0;
+    margin: -100px 0 0;
+    bottom: 100%;
+    padding: 0;
+    width: 9.5em;
+    text-align: left;
+}
+.dropit.account .dropit-open .dropit-submenu li a {
+  float: left;
+  margin-left: 10px;
+  text-align: left;
+ }

@@ -42,13 +42,13 @@
      <div class="settings">
        <img src="https://pbs.twimg.com/profile_images/439462178601463808/iJTi9Tw-.png" width="200" alt="avatar">
        <p>Oscar G.</p>
-       <ul class="menu">
+       <ul class="account">
             <li>
               <a href="#"><i class="fa fa-cog"></i></a>
               <ul>
-                  <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
-                  <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
-                  <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+                  <li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
+                  <li><a href="#"><i class="fa fa-group"></i> Collaborators</a></li>
+                  <li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
               </ul>
             </li>
           </ul>
@@ -143,10 +143,13 @@
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/dropit.js"></script>
 <script type="text/javascript">
-$(".menu").dropit();
-$("#menu").click(function(){
-  $("#left-nav").toggleClass("open", 200);
-});
+  $(".menu").dropit();
+
+  $(".account").dropit();
+
+  $("#menu").click(function(){
+    $("#left-nav").toggleClass("open", 200);
+  });
 </script>
 </body>
 </html>
