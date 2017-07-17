@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Varela Round", Helvetica, Arial, sans-serif;
 }
 h2 {
-  font-size:28px;
+  font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
 }
@@ -82,7 +82,7 @@ header nav {
   padding:1em 0;
 }
 header nav ul {
-  display: inline;
+  display: inline-block;
   text-align: right;
   float:right;
   margin:0;
@@ -133,6 +133,7 @@ header .hero {
      padding-right: 0;
    }
  }
+
  /* BUTTONS */
 .btn {
   border-radius: 4px;
@@ -373,7 +374,6 @@ header .hero {
   -moz-transform: translate(-280px, 0); /** Firefox **/
 }
 
-
 .hamburger {
   position:absolute;
   z-index: 1000;
@@ -482,6 +482,73 @@ header .hero {
 .left-nav .links .current {
   background-color: lightgrey;
 }
+/* CONTENT */
+
+.content {
+   padding: 6em 1% 1.5em;
+   float: right;
+   width:98%;
+   position: relative;
+ }
+ .content .header {
+   margin:0 1% 20px;
+ }
+ .content .header h1 {
+   font-family: "Lato", Helvetica, Arial, sans-serif;
+   font-weight: 100;
+   margin:0 0 30px;
+   font-size: 36px;
+   color: #3498DB;
+   line-height: 44px;
+   float: left;
+   display: inline-block;
+ }
+ .content .header > a {
+   float:right;
+ }
+ .content-item {
+   width: 96%;
+   margin: 0 2% 25px;
+   float:left;
+   display:block;
+ }
+ .item-box {
+   display: block;
+   height: 200px;
+   background: #FFFFFF;
+   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.40);
+   position: relative;
+   overflow: hidden;
+   padding: 20px;
+ }
+ .item-box h2 {
+    font-family: "Serevek", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+ }
+ .item-box h2 img {
+   width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+ }
+ .item-box p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 18px;
+    margin: 10px 0 0;
+  }
+.item-box > img {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 
 /* IMAGES */
 
