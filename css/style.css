@@ -565,10 +565,6 @@ header .hero {
   padding: 0px;
 }
 
-.images .item-box {
-  display: inline-block;
-}
-
  /* Larger Mobile Devices */
   @media (min-width:460px) {
     .content {
